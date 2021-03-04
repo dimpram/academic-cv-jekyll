@@ -2,7 +2,7 @@
 
 A simple academic cv template inspired by latex documents made for jekyll. Also github pages compatible!
 
-![Theme preview](/screeshot.png)
+![Theme preview](screenshot.png)
 
 ## Installation
 
