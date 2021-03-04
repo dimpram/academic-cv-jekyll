@@ -1,0 +1,23 @@
+{% assign cv = site.data.cv %}
+{% assign yml = cv[include.yml] %}
+
+<h1>{{ yml.name }}</h1>
+<hr>
+<table class="table--details">
+    <tr>
+        <td>{{ yml.uni }}</td>
+        <td>Email: <a href="mailto:{{ yml.email }}">{{ yml.email }}</a></td> 
+    </tr>
+    <tr>
+        <td>{{ yml.dept }}</td>
+        <td>Phone: <a href="tel:{{ yml.phone }}">{{ yml.phone }}</a></td> 
+    </tr>
+    <tr>
+        <td>{{ yml.place }}</td>
+        <td>Github: <a href="{{ yml.github.url }}">{{ yml.github.name }}</a></td> 
+    </tr>
+    <tr>
+        <td></td>
+        <td>Linkedin: <a href="{{ yml.linkedin.url }}">{{ yml.linkedin.name }}</a></td> 
+    </tr>
+</table>

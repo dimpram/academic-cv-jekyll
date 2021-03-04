@@ -1,0 +1,68 @@
+details:
+  name: John Doe
+  uni: Harvard University
+  dept: Dept. of Informatics
+  place: Cambridge, MA, United States
+  email: dev@johndoe.com
+  phone: +30 123 456 7890
+  github: 
+    name: "@johndoe"
+    url: "#"
+  linkedin:
+    name: "John Doe"
+    url: "#"
+
+summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+education:
+  - title: Harvard University Cambridge, MA, United States
+    details: BS.c., Informatics, 2018 - 2022 (expected)
+    bullets:
+      - IT System & Web Development
+
+experience:
+  - title: Full stack Web Developer
+    details: CoolCompany, 2019 - Present
+    bullets:
+      - Core developer on search algorithm
+      - Created and developed project's PHP API and CMS and deployed it on CoolCompany's server
+  - title: Frontend Web Developer
+    details: NiceFestival, Crete, 2019 - Present
+    bullets:
+      - Designed and developed festival's website using Jekyll framework
+
+extracurricular:
+  - title: Volunteer
+    details: NiceFestival, Crete, 2016 - Present
+    bullets:
+      - Part of festival's organization team
+      - Volunteer group coordinator
+  - title: Volunteer
+    details: NiceFestival, Crete, 2016 - Present
+    bullets:
+      - Part of festival's organization team
+      - Volunteer group coordinator
+
+seminars:
+  - title: Introduction to Jekyll
+    details: Science Conference, Online, 2020
+    bullets:
+      - Speaker for jekyll webinar
+
+projects:
+  - Jekyll academic cv, 2019
+  - PHP API for home automation, 2019
+
+skills:
+  - title: tech
+    details:
+    - HTML5, CSS, JS, PHP, Jekyll
+  - title: soft
+    details:
+    - Public speaking, Presenting progress, Reviewing work
+
+languages: English (native), French
+
+hobbies:
+  - Music performance
+  - blogging

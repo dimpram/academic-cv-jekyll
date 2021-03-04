@@ -1,0 +1,8 @@
+{% assign cv = site.data.cv %}
+{% assign title = include.title %}
+{% assign yml = cv[include.yml] %}
+
+<div class="row">
+    <div class="column"><h2 class="section__title">{{ title }}</h2></div>
+    <div class="column">{{ yml }}</div>
+</div> 
