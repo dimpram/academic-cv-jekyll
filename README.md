@@ -37,7 +37,14 @@ Or install it yourself as:
 
 ## Usage
 
-1. Create an index page or copy the one that is in the repository and modify it as you like.
+1. Create an index page and add just the default layout to it.
+
+```yaml
+---
+layout: default
+---
+```
+
 2. Create a `_data` folder with a file named `cv.yml` or copy the one that is in the repository and modify it as you like.
 
 
