@@ -1,4 +1,4 @@
-# academic-cv-jekyll
+# Academic CV Jekyll
 
 A simple academic cv template inspired by latex documents made for jekyll. Also github pages compatible!
 
