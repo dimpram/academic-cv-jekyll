@@ -47,6 +47,11 @@ layout: default
 
 2. Create a `_data` folder with a file named `cv.yml` or copy the one that is in the repository and modify it as you like.
 
+3. Deploy it on Netlify or Github pages(This may not work)
+
+## Customazation
+
+If you want to change the position of each section you can copy the `_layouts` folder to your repository and overwrite the existing layout that the index is using by moving each include to the position that you like.
 
 ## License
 
