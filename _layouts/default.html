@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="{{ "assets/css/styles.css" | relative_url }}">
     </head>
     <body>
+          {{ content }}
         <div class="page">
           {% include table.html yml="details" %}
           {% include single.html title="Summary" yml="summary"%}
